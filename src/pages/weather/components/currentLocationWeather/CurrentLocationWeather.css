@@ -1,0 +1,48 @@
+.currentCityWeather {
+  margin-top: 40px;
+  width: 250px;
+}
+
+.city {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.weatherText {
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.cityHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.temperatureContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.temperature {
+  position: relative;
+  right: 18px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.temperatureType {
+  position: relative;
+  bottom: 10px;
+  right: 12px;
+}
+
+.weatherIcon {
+  position: relative;
+  right: 10px;
+  top: 5px;
+}
+
+.favoriteIcon {
+  cursor: pointer;
+}

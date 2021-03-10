@@ -1,0 +1,13 @@
+.dailyWeather {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.day {
+    margin-bottom: 10px;
+}
+
+.temperatureRange {
+    color: #9c9ea2;
+}
+
