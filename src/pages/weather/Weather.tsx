@@ -32,13 +32,17 @@ const Weather = () => {
         }
     }
 
+    const onChange = (id: number, name: string) => {
+        dispatch(loadWeather(id, name));
+    }
+
     useEffect(() => {
         dispatch(loadWeather(locationId, locationName));
     }, [dispatch, locationId, locationName]);
 
     return (
         <div className="weather">
-            <SearchField />
+            <SearchField onChange={onChange} />
             { !isLoading ? (
                <>
                    <CurrentLocationWeather weatherConditions={weatherConditions} />
